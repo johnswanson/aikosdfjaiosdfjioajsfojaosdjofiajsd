@@ -1,7 +1,6 @@
 version: 2.1
 jobs:
   build:
-    docker:
-      - image: ubuntu:latest
+    machine: true
     steps:
       - run: echo hello world
